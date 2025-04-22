@@ -21,23 +21,6 @@ The interface includes:
 - **Exporting:** openpyxl, python-docx, ReportLab
 - **Environment:** dotenv
 
-## AI Model Prompting
-This app sends unstructured CV text to Groq’s LLM with a custom prompt to return JSON like this:
-
-```json
-{
-  "Personal Information": {
-    "Full Name": "--",
-    "Email": "--",
-    ...
-  },
-  "Education": [...],
-  "Languages": [...],
-  "Professional Experience": [...],
-  "Other Achievements": [...],
-  "Current Compensation": {...}
-}
-
 ## Project Structure
 .
 ├── app.py                 # Streamlit interface
