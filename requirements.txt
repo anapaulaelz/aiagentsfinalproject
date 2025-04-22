@@ -6,3 +6,4 @@ python-docx
 reportlab
 pandas
 python-dotenv
+openpyxl
