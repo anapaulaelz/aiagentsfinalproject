@@ -37,12 +37,9 @@ The interface includes:
 1. **Clone the repo:**
     git clone https://github.com/your-repo/resume-standardizer.git
     cd resume-standardizer
-
 2. **Install the required dependencies:**
     pip install -r requirements.txt
-
 3. **Add your API key in a .env file:**
-    GROQ_API_KEY=your_groq_api_key
-    
+    GROQ_API_KEY=your_groq_api_key  
 4. **Run the app:**
     streamlit run app.py
