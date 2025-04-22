@@ -23,11 +23,11 @@ The interface includes:
 
 ## Project Structure
 .
-├── app.py                 # Streamlit interface
-├── exporter.py            # Export functions (.xlsx, .docx, .pdf, .zip)
-├── extractor_groq.py      # Prompt and request to Groq LLM
-├── leer_cvs.py            # File parser for PDFs and DOCX
-├── requirements.txt
-├── README.md
-├── .env                   # (Not shared) with GROQ_API_KEY
-└── logo.png               # TalentWise HR logo
+app.py --> Streamlit interface
+exporter.py --> Export functions (.xlsx, .docx, .pdf, .zip)
+extractor_groq.py --> Prompt and request to Groq LLM
+leer_cvs.py --> File parser for PDFs and DOCX
+requirements.txt
+README.md
+.env --> (Not shared) with GROQ_API_KEY
+logo.png --> TalentWise HR logo
